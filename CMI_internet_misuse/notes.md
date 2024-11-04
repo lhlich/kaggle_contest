@@ -1,0 +1,14 @@
+- quick attempt on xgboost baseline 0.3~0.325
+- LR through pytorch, 0.352
+- shallow NN: 0.35~0.39 considering weighted loss
+    - sigmoid activation, 0.1 dropout, MSE loss, adam
+    - 0.45 train kappa
+- v2 notebook shows OCE/focol loss with no good outcome
+  - likely need data augmentation
+TODO:
+- ensemble
+- augmentation
+- time series data consumption
+  - windowed stats
+  - RNN + Transformer
+  - Auto-encoder?
